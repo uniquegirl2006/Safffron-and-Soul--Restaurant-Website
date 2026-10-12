@@ -1,0 +1,67 @@
+.menu{
+    height:1000px;
+    background-color:black;
+    background-size: cover;
+    border-width:1px solid black;
+    color:aliceblue;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size: small;
+    
+}
+body{
+    margin:0px;
+}
+.container{
+     display:flex;
+     flex-direction:center;
+     justify-content:center;
+     align-items:space-around;
+     font-size:large;
+}
+.main{
+    margin:30px;
+}
+.appetizer{
+    margin:30px;
+}
+.background{
+    height:400px;
+    background-image:url("/Moody\ Indian\ Cuisine\ Banner.png");
+    background-size:cover;
+    color:aliceblue;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items:center;
+}
+h1{
+    height:200px;
+    background-image:url("/image3.jpg");
+    color:aliceblue;
+    margin:0px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:60px 140px;
+}
+.logo{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    
+}
+
+.form input{
+     font-size:1.5 rem;
+     font-family:inherit;
+     color:inherit;
+     padding:1.5rem 2rem;
+     border-radius:2px;
+     border:none;
+     border-bottom:3px solid #11122b;
+     width:100%;
+     display:block;
+     transition:all 0.3sec;
+}

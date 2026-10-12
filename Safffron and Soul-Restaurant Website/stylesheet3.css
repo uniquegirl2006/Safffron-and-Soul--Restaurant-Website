@@ -1,0 +1,53 @@
+.features-section{
+    height:400px;
+    background-image:url(/restaurant.img.png);
+    color:whitesmoke;
+    font-size:x-large;
+    font-family:"Ubuntu",sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:'Ubuntu Condensed',sans-serif;
+    background-repeat:no-repeat;
+}
+
+.features-section >.column-wrapper{
+    width:2200px;
+    display:flex;
+    justify-content:space-between;
+}
+.footer-wrapper{
+  height:200px;
+  background-color:#11122b;
+  color: #cbcbcb;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:60px 100px;
+}
+.footer-nav-link>.Banner{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.footer-nav-link a{
+   font-family:"Ubuntu",sans-serif;
+   color:whitesmoke;
+   margin:0 5px;
+   text-decoration:none;
+   transition:0.5s;
+}
+.footer-nav-link a:hover{
+   color:orange;
+   letter-spacing:1px;
+}
+.address a{
+  color:#cbcbcb;
+}
+.social-media-wrapper{
+    background-color: #11122b;
+    color:#cbcbcb;
+}
+.social-media-wrapper a{
+    color:whitesmoke;
+}
